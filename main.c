@@ -3,6 +3,9 @@
 #include <time.h>
 #define ARR_MAX 1001
 
+struct timeval tv1, tv2, dtv;
+struct timezone tz;
+
 int take_vertex();
 int matrix();
 int find();
